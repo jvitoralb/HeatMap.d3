@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#heat-map {
+    margin: auto;
+}
+
+.cell {
+    stroke:aliceblue;
+}
+
+.d3-tip{
+    position: absolute;
+    width: fit-content;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    line-height: 20px;
+}
+
+.credit { 
+    font-size: 12px;
+}
